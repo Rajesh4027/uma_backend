@@ -2,9 +2,9 @@
   "name": "umafoods-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "server.js",
+  "main": "api/send-email.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/send-email.js"
   },
   "keywords": [],
   "author": "",
@@ -12,10 +12,9 @@
   "description": "Backend server for Uma Foods contact form using Node.js, Express, and Nodemailer.",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "multer": "^2.0.2",
-    "nodemailer": "^7.0.10",
-    "resend": "^6.4.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5"
   }
 }
